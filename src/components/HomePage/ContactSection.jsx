@@ -75,7 +75,7 @@ export default function ContactSection() {
                   className={`space-y-2 p-4 rounded-lg transition-colors cursor-pointer
                     ${
                       selectedLocation?.id === location.id
-                        ? "bg-blue-50"
+                        ? "bg-secondary/75"
                         : "hover:bg-secondary"
                     }`}
                   onClick={() => setSelectedLocation(location)}
