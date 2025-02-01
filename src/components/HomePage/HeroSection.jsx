@@ -48,7 +48,7 @@ export default function HeroSection() {
   return (
     <div
       id="hero"
-      className="relative sm:h-[100dvh] xx:h-[60dvh]  overflow-hidden bg-black"
+      className="relative sm:h-[100dvh] xx:h-[70dvh] xx:pt-24 xs:pt-0 overflow-hidden bg-black"
     >
       {/* Background Image Carousel */}
       <AnimatePresence mode="wait">
