@@ -18,7 +18,7 @@ const todayDate = today.getDate(); // Get the current day (1-31)
 export default function AppointmentSection() {
   const handleBookNow = () => {
     Calendly.initPopupWidget({
-      url: "https://calendly.com/marketinglot-blog/optical-issues",
+      url: "https://calendly.com/marketinglot-blog/zoom-meeting",
     });
   };
 
